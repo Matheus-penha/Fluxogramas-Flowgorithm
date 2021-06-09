@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Matheus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-08 11:03:54 "/>
+        <attribute name="created" value="TWF0aGV1cztQQy1NOzIwMjEtMDYtMDg7IjExOjI4OjM2ICI7MjE5MQ=="/>
+        <attribute name="edited" value="TWF0aGV1cztQQy1NOzIwMjEtMDYtMDg7IjExOjAzOjU0ICI7NTsyMjk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, indice, limite, tabuada" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="indice" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="indice &lt;= limite">
+                <assign variable="indice" expression="indice + 1"/>
+                <assign variable="tabuada" expression="numero * indice"/>
+                <output expression="tabuada" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
